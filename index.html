@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="izq">
+    <header class="header">
+        <img class="logo" src="img/Logo.svg" alt="logo">
+    </header>
+    <main>
+        <!-- Primera sección -->
+        <section class="seccion1">
+            <div class="seccion1_caja_texarea">
+                <textarea class="seccion1_caja_texto" placeholder="ingrese el texto aquí"></textarea>
+            </div>
+            <div class="seccion1_caja_alerta">
+                <img src="img/alerta.svg" alt="alerta">
+                <p>Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="seccion1_caja_botones">
+                <input type="button" class="boton_encriptar" value="Encriptar">
+                <input type="button" class="boton_desencriptar" value="Desencriptar">
+            </div>
+        </section>
+    </main>
+    </div>
+
+        <!-- Segunda sección -->
+    <div class="der">
+          <section class="seccion2">
+            <div class="contenedor_muñeco">
+                <img class="muñeco" src="img/Muñeco.svg" alt="imagen_muñeco">   
+            </div>
+            <div class="contenedor_info">
+                <h3>ningun mensaje fue <br> encontrado</h3>
+                <p>Ingrese el texto que desee encriptar o <br> desencriptar.</p>
+            </div>
+            <div class="contenedor_resultado">
+                <p class="texto_resultado"></p>
+            </div>
+            <div class="contenedor_boton_copiar ocultar">
+                <input type="button" class="boton_copiar" value="Copiar">
+            </div>
+        </section>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
